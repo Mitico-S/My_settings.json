@@ -1,6 +1,7 @@
 {
   "extensions.ignoreRecommendations": true,
   "workbench.startupEditor": "newUntitledFile",
+  "terminal.integrated.shell.osx": "/bin/zsh",
 
   "workbench.iconTheme": "material-icon-theme",
   "debug.console.fontFamily": "Fira Code Retina",
@@ -54,10 +55,14 @@
   "typescript.suggest.autoImports": true,
   "prettier.singleQuote": true,
   "files.autoSave": "onFocusChange",
-  // Terminal
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
-  // Theme
-  "workbench.colorTheme": "Red One Dark Pro | Dark Bordered",
   //Font-family
-  "editor.fontFamily": "'Fire Code Retina', Consolas, 'Courier New', monospace"
+  "editor.fontFamily": "'Fire Code Retina', Consolas, 'Courier New', monospace",
+
+  "java.home": "C:\\Program Files\\Java\\jdk-13.0.1",
+  "java.help.firstView": "gettingStarted",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "java.configuration.checkProjectSettingsExclusions": false,
+  // Theme
+  "workbench.colorTheme": "night blue theme"
 }
