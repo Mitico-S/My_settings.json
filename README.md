@@ -14,4 +14,4 @@ Minhas configurações pessoais do Visual Studio code
 
 ## Como instalar
 
-Digite Ctrl + Shift + P e digite Open Settings(JSON) e cole os comandos, lembre-se de fazer um backup antes, alguns comandos são necessárias aplicações instaladas, como o Tema, Prettier etc.
+Digite Ctrl + Shift + P e digite Open Settings(JSON) e cole os comandos, lembre-se de fazer um backup antes, algumas extensões são necessárias aplicações instaladas, como o Tema, Prettier etc.
