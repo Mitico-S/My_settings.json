@@ -1,4 +1,4 @@
-# [Target RGB]()
+# [My settings]()
 
 ![Watch the video](https://raw.githubusercontent.com/Mitico-S/My_settings.json/master/git_documents/My%20workstation.JPG)
 
