@@ -44,8 +44,7 @@
     "fakes": "mock",
     "websockets": "pipe",
     "protos": "pipe",
-    "grpc": "pipe",
-    "prettier.singleQuote": true
+    "grpc": "pipe"
   },
 
   "breadcrumbs.enabled": true,
@@ -54,15 +53,22 @@
   "javascript.suggest.autoImports": true,
   "typescript.suggest.autoImports": true,
   "prettier.singleQuote": true,
-  "files.autoSave": "onFocusChange",
   //Font-family
   "editor.fontFamily": "'Fire Code Retina', Consolas, 'Courier New', monospace",
-
   "java.home": "C:\\Program Files\\Java\\jdk-13.0.1",
   "java.help.firstView": "gettingStarted",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "java.configuration.checkProjectSettingsExclusions": false,
-  // Theme
-  "workbench.colorTheme": "night blue theme"
+  "workbench.colorTheme": "night blue theme",
+  "json.schemas": [
+    {
+      "name": "vscode-expo-manifest",
+      "url": "file:///c%3A/Users/jotal/AppData/Roaming/Code/User/globalStorage/bycedric.vscode-expo/manifest-38.0.0.json",
+      "fileMatch": [
+        "app.json",
+        "app.config.json"
+      ]
+    }
+  ]
 }
