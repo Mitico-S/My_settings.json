@@ -16,6 +16,11 @@
   "editor.rulers": [80, 120],
   "editor.tabSize": 2,
   "terminal.integrated.fontSize": 14,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
@@ -44,7 +49,8 @@
     "fakes": "mock",
     "websockets": "pipe",
     "protos": "pipe",
-    "grpc": "pipe"
+    "grpc": "pipe",
+    "desktop": "dump"
   },
 
   "breadcrumbs.enabled": true,
@@ -55,20 +61,18 @@
   "prettier.singleQuote": true,
   //Font-family
   "editor.fontFamily": "'Fire Code Retina', Consolas, 'Courier New', monospace",
-  "java.home": "C:\\Program Files\\Java\\jdk-13.0.1",
+  "java.home": "C:\\Users\\jotal\\AppData\\Local\\Programs\\AdoptOpenJDK",
   "java.help.firstView": "gettingStarted",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "java.configuration.checkProjectSettingsExclusions": false,
-  "workbench.colorTheme": "night blue theme",
   "json.schemas": [
     {
       "name": "vscode-expo-manifest",
       "url": "file:///c%3A/Users/jotal/AppData/Roaming/Code/User/globalStorage/bycedric.vscode-expo/manifest-38.0.0.json",
-      "fileMatch": [
-        "app.json",
-        "app.config.json"
-      ]
+      "fileMatch": ["app.json", "app.config.json"]
     }
-  ]
+  ],
+  "git.ignoreMissingGitWarning": true,
+  "workbench.colorTheme": "Halcyon"
 }
