@@ -4,14 +4,15 @@
   "terminal.integrated.shell.osx": "/bin/zsh",
 
   "workbench.iconTheme": "material-icon-theme",
-  "debug.console.fontFamily": "JetBrains Mono",
-  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "debug.console.fontFamily": "Fira Code Retina",
 
-  "editor.fontLigatures": true,
+  "window.zoomLevel": 0,
+  "editor.fontLigatures": false,
   "editor.fontSize": 14,
   "editor.lineHeight": 24,
   "editor.formatOnSave": true,
   "update.mode": "none",
+  "editor.renderWhitespace": "all",
   "editor.rulers": [80, 120],
   "editor.tabSize": 2,
   "terminal.integrated.fontSize": 14,
@@ -59,7 +60,7 @@
   "typescript.suggest.autoImports": true,
   "prettier.singleQuote": true,
   //Font-family
-  "editor.fontFamily": "'JetBrains Mono'",
+  "editor.fontFamily": "'Fire Code Retina', Consolas, 'Courier New', monospace",
   "java.home": "C:\\Users\\jotal\\AppData\\Local\\Programs\\AdoptOpenJDK",
   "java.help.firstView": "gettingStarted",
   "editor.suggestSelection": "first",
@@ -73,21 +74,5 @@
     }
   ],
   "git.ignoreMissingGitWarning": true,
-  "workbench.colorTheme": "Halcyon",
-  "liveServer.settings.donotShowInfoMsg": true,
-  "sqltools.connections": [
-    {
-      "database": "teste_prog",
-      "driver": "MySQL",
-      "mysqlOptions": {
-        "authProtocol": "default"
-      },
-      "name": "admin",
-      "port": 3306,
-      "previewLimit": 50,
-      "server": "localhost",
-      "username": "root",
-      "password": ""
-    }
-  ]
+  "workbench.colorTheme": "Halcyon"
 }
