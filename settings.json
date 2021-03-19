@@ -6,7 +6,6 @@
   "workbench.iconTheme": "material-icon-theme",
   "debug.console.fontFamily": "JetBrains Mono",
   "terminal.integrated.fontFamily": "JetBrains Mono",
-
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
   "editor.lineHeight": 24,
@@ -73,7 +72,6 @@
     }
   ],
   "git.ignoreMissingGitWarning": true,
-  "workbench.colorTheme": "Halcyon",
   "liveServer.settings.donotShowInfoMsg": true,
   "sqltools.connections": [
     {
@@ -89,5 +87,11 @@
       "username": "root",
       "password": ""
     }
-  ]
+  ],
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "elixirLS.suggestSpecs": false,
+  "tabnine.experimentalAutoImports": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "workbench.colorTheme": "Omni"
 }
